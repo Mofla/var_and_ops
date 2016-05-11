@@ -29,9 +29,7 @@ var add10AndMultiplyBy5 = function(a) {
  * @return {[int]} result
  */
 var computeExponention = function(a, b) {
-
 	return Math.pow(a,b);
-
 }
 
 
@@ -58,14 +56,7 @@ var computeSum = function() {
  * @return {[number]}
  */
 var shouldComputeDouble = function(number){
-	var a = 12;
-
-    var multiply = function(b){
-    	var a = b*2;
-    	return a;
-    }
-    
-    return multiply(number);
+    return number*2;
 }
 
 
